@@ -134,6 +134,30 @@ p {
     height: 438px;
 }
 
+.bounceUpDown{
+	animation: bounceUpDown 2s infinite linear alternate;
+}
+@keyframes bounceUpDown{
+
+	0%{
+		transform: translateY(-20px);
+		-moz-transform: translateY(-20px);
+		-webkit-transform: translateY(-20px);
+	}
+
+	50%{
+		transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		-webkit-transform: translateY(-10px);
+	}
+
+	100%{
+		transform: translateY(-20px);
+		-moz-transform: translateY(-20px);
+		-webkit-transform: translateY(-20px);
+	}
+
+}
 
 /* =============================
         Main section style
