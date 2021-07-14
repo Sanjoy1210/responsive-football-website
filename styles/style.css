@@ -29,13 +29,13 @@ p {
 ================================*/
 .header {
     background-color: #2D25A0;
-    margin-bottom: 70px;
+    padding-bottom: 88px;
 }
 
 .container {
-    max-width: 1164px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding-bottom: 88px;
+    
 }
 
 .manu {
@@ -90,7 +90,9 @@ p {
     margin-right: 8px;
 }
 
-
+.match-info a.button{
+    margin-top: 25px;
+}
 
 .button {
     background-color: #E02C6D;
@@ -132,97 +134,6 @@ p {
     height: 438px;
 }
 
-/* .manu {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 52px;
-    max-width: 1160px;
-    margin: 0 auto;
-}
-
-.manu-items ul {
-    display: flex;
-    align-items: center;
-    margin-left: 156px;
-}
-
-.manu-items ul li {
-    list-style: none;
-}
-
-.manu-items ul li:not(:first-child) {
-    padding-left: 36px;
-}
-
-.manu-items ul li a {
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
-} */
-
-/* .login {
-    width: 123px;
-} */
-
-/* .login a {
-    color: #FFFFFF;
-    margin-right: 140px;
-    background-color: #E02C6D;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 14px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 67px;
-    padding-bottom: 86px;
-}
-
-.banner {
-    margin-left: 156px;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 64px;
-    color: #FFFFFF;
-    margin-bottom: 37px;
-    line-height: 80px;
-}
-
-.button {
-    background-color: #E02C6D;
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 24px;
-    margin-top: 37px;
-    display: inline-block;
-    transition: 0.4s ease-in-out;
-}
-
-.button:hover {
-    background-color: red;
-
-    transform: scale(1.2);
-}
-
-span {
-    font-size: 14px;
-    padding-left: 8px;
-}
-
-.banner-img {
-    margin-right: 140px;
-}
-
-.banner-img img {
-    width: 556.01px;
-    height: 438px;
-} */
 
 /* =============================
         Main section style
@@ -231,6 +142,10 @@ span {
 .main {
     max-width: 1050px;
     margin: 0 auto;
+}
+
+.player-card {
+    padding: 80px 0;
 }
 
 .top-players {
@@ -261,7 +176,7 @@ span {
 
 .match-summary {
     width: 469px;
-    height: 309px;
+    /* height: 309px; */
     padding-top: 66px;
     margin-right: 60px;
 }
@@ -270,10 +185,11 @@ span {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 20px;
 }
 
 .container .match-img img {
-    width: 567px;
+    width: 519px;
     height: 427px;
 }
 
@@ -281,7 +197,7 @@ span {
         Form Style
 ================================*/
 .order-kit {
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .kit-container {
@@ -292,19 +208,16 @@ span {
 
 .order-form {
     display: flex;
-    /* justify-content: space-between; */
-}
-
-.pre-order {
-    width: 50%;
 }
 
 .pre-order-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 16px;
 }
-
+.pre-order {
+    padding-right: 50px;
+}
 .option p span {
     padding-left: 10px;
 }
@@ -346,8 +259,9 @@ span {
     font-size: 15px;
 }
 .kit-container .kit-image img {
-    width: 423px;
-    height: 432px;
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
 }
 
 /* =============================
@@ -357,7 +271,7 @@ span {
 .top-team-result {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 20px;
 }
 
 .result {
@@ -368,7 +282,7 @@ span {
 
 .result-container {
     box-shadow: 0px 3px 10px #21252947;
-    padding: 8px 32px 0 16px;
+    padding: 8px 12px 12px 16px;
 }
 
 .team {
@@ -408,8 +322,8 @@ span {
 }
 
 .table-img img {
-    height: 15px;
-    width: 115px;
+    height: 100%;
+    width: 120px;
 }
 
 #table-view a {
