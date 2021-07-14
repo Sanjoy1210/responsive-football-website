@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    /* font-size: 14px; */
 }
 
 p {
@@ -267,6 +268,175 @@ span {
     height: 427px;
 }
 
+/* =============================
+        Form Style
+================================*/
+.order-kit {
+    padding-bottom: 80px;
+}
+
+.kit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-form {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.pre-order {
+    width: 50%;
+}
+
+.pre-order-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.option p span {
+    padding-left: 10px;
+}
+
+.form-container {
+    padding-left: 10px;
+}
+
+.league-selector {
+    width: 255px;
+    height: 33px;
+    font-size: 16px;
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    background-color: #E7E7E8;
+}
+
+.submission-form h4 {
+    margin-top: 18px;
+    margin-bottom: 21px;
+}
+
+.submission-form p input {
+    background-color: #E7E7E8;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 16px;
+    margin-bottom: 18px;
+    height: 30px;
+    width: 255px;
+    border: none;
+    outline: none;
+}
+
+#btn {
+    border: none;
+    width: 255px;
+    font-size: 15px;
+}
+.kit-container .kit-image img {
+    width: 423px;
+    height: 432px;
+}
+
+/* =============================
+        Result Style
+================================*/
+
+.top-team-result {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.result-container {
+    box-shadow: 0px 3px 10px #21252947;
+    padding: 8px 32px 0 16px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team .title {
+    margin-left: 8px;
+}
+
+.title p {
+    font-size: 13px;
+}
+
+.title p:not(:first-child) {
+    color: #aaa;
+}
+
+.title h3 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.team img {
+    max-width: 64px;
+}
+
+/* =============================
+        Point Table
+================================*/
+
+.table-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.table-img img {
+    height: 15px;
+    width: 115px;
+}
+
+#table-view a {
+    font-size: 10px;
+}
+
+th {
+    border-collapse: collapse;
+    border-bottom: 1px solid #969BAB;
+}
+
+th:not(:first-child) {
+    margin-right: 20px;
+    table-layout: auto;
+    width: 75px;
+}
+tr td:not(:first-child) {
+    text-align: center;
+}
+
+.mini-table__team {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.serial {
+    margin-right: 10px;
+}
+
+.flag img {
+    margin-right: 8px;
+    height: 24px;
+    width: 24px;
+}
 
 /* =============================
         Footer section style
