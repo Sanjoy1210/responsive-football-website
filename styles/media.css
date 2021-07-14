@@ -102,6 +102,7 @@
     }
     .order-form {
         flex-direction: column;
+        width: 100%;
     }
 
     .league-selector {
