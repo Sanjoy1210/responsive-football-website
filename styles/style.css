@@ -81,12 +81,21 @@ p {
     margin-bottom: 37px;
 }
 
+.button .fas {
+    margin-left: 8px;
+}
+
+#login .fas {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+
+
 .button {
     background-color: #E02C6D;
     color: #FFFFFF;
-    padding: 10px 15px;
-    /* custom btn */
-
+    padding: 10px 25px;
     transition: all 1s ease;
     position: relative;
     z-index: 1;
